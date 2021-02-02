@@ -123,3 +123,51 @@ body{
 	height: 250px;
 	width: 430px;
 }
+.children{
+	margin-top: 200px;
+}
+.children > .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.children__photo{
+	width: 48%;
+}
+.children__content{
+	width: 48%;
+}
+.children__photo-imge{
+	width: 470px;
+	height: 500px;
+}
+.children__photo-imge2{
+	position: absolute;
+	top: 8%;
+	left: 4%;
+	width: 370px;
+	height: 400px;
+}
+.children__content-title{
+	color: #261B59;
+	font-size: 50px;
+	width: 300px;
+	margin-bottom: 30px;
+}
+.children__content-text{
+	width: 400px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+.children__content-link{
+	padding: 10px 15px;
+	background-color: #261B59;
+	color: white;
+}
+.nuqta{
+	position: absolute;
+	left: 1%;
+	top: 77%;
+	z-index: -1;
+	width: 100px;
+}
