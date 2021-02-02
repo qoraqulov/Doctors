@@ -220,6 +220,16 @@ body{
 	font-size: 30px;
 	margin: 40px 0 20px 0;
 }
+.right{
+	text-align: right;
+}
+.rig{
+	text-align: right;
+	margin-left: 68px;
+}
+.lig{
+	margin-left: 360px;
+}
 .main__box-titlll{
 	margin-bottom: 20px;
 	font-size: 22px;
@@ -240,8 +250,9 @@ body{
 	background-color: #261B59;
 	color: white;
 }
-.conn{
-	display: flex;
-	flex-direction: row-reverse;
+.fff{
 	transform: translateY(-70px);
+}
+.qqq{
+	transform: translateY(-140px);
 }
